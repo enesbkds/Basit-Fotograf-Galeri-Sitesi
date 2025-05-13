@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotoğraf Galerisi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Benim Fotoğraf Galerim</h1>
+      <p><em>Doğadan, şehirden ve anlardan kareler</em></p>
+      <nav class="navbar">
+        <div class="nav-container">
+          <ul class="nav-links">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="gallery">
+      <div class="photo">
+        <img src="img/doga.jpg" alt="Doğa" />
+        <p>Doğa Manzarası</p>
+      </div>
+      <div class="photo">
+        <img src="img/sehir.jpg" alt="Şehir" />
+        <p>Şehir Hayatı</p>
+      </div>
+      <div class="photo">
+        <img src="img/deniz.jpg" alt="Deniz" />
+        <p>Deniz ve Kumsal</p>
+      </div>
+      <div class="photo">
+        <img src="img/daglar.jpg" alt="Dağ" />
+        <p>Dağlar</p>
+      </div>
+      <div class="photo">
+        <img src="img/vahsi.jpg" alt="Hayvan" />
+        <p>Vahşi Yaşam</p>
+      </div>
+      <div class="photo">
+        <img src="img/cöl.jpg" alt="Çöl" />
+        <p>Çöl</p>
+      </div>
+      <div class="photo">
+        <img src="img/tersev.jpg" alt="TersEv" />
+        <p>Ters Ev</p>
+      </div>
+      <div class="photo">
+        <img src="img/gece.jpg" alt="Gece" />
+        <p>Gece</p>
+      </div>
+    </main>
+
+    <div id="lightbox" class="lightbox hidden">
+      <span class="close">&times;</span>
+      <img src="" alt="Büyük Görsel" id="lightbox-img" />
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+      <p>© 2025 Fotoğraf Galerim</p>
+    </footer>
+  </body>
+</html>

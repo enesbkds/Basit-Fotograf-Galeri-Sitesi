@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotoğraf Galerisi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Benim Fotoğraf Galerim</h1>
+      <p><em>Doğadan, şehirden ve anlardan kareler</em></p>
+      <nav class="navbar">
+        <div class="nav-container">
+          <ul class="nav-links">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="#">İletişim</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="contact-section">
+      <h2>İletişim</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Adınız" required />
+        <input type="email" id="email" placeholder="E-posta" required />
+        <textarea
+          id="message"
+          rows="5"
+          placeholder="Mesajınız"
+          required
+        ></textarea>
+        <button type="submit">Gönder</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+
+    <footer>
+      <p>© 2025 Fotoğraf Galerim</p>
+    </footer>
+  </body>
+</html>
